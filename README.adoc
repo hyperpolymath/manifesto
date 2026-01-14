@@ -1,3 +1,15 @@
-= RSR template repo - see RSR_OUTLINE.adoc in root for general background and specification
+= The Hyperpolymath Manifesto: RSR 2026 & The Metaprogramming Turn
+Jonathan D.A. Jewell <hyperpolymath@github>
+v1.0.0, 2026-03-27 : The 50th Milestone Edition
+:description: Codifying 400+ repositories into a unified formal system.
 
-== This is your repo - don't forget to rename me!
+== The Vision
+For three decades, I have operated at the intersection of cognitive science , philosophy, and systems engineering. This manifesto marks the transition from private research to the public deployment of the **RSR 2026 (Rhodium Standard Repository)**.
+
+== Core Pillars
+1. **Machine-Readable Governance:** Moving beyond human-centric READMEs to the `6SCM` architectural pattern.
+2. **Neurosymbolic Verification:** Bridging the gap between the probabilistic nature of LLMs and symbolic mathematical certainty.
+3. **Post-Disciplinary Praxis:** Applying the rigour of Cognitive and Decision Sciences  to social and technical systems, from labor union policy [cite: 91, 98] to RISC-V SSGs.
+
+== The Legacy of Axiology
+My work in **Axiology** (the study of value) and the **Metaprogramming Turn** [cite: 66, 76] culminates here. We do not just write code; we architect value-driven logic.
