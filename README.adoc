@@ -1,4 +1,4 @@
-= The Hyperpolymath Manifesto: RSR 2026 & The Metaprogramming Turn
+= Jonathan's Manifesto [a work-in-progress]: The Metaprogramming Turn
 Jonathan D.A. Jewell <hyperpolymath@github>
 v1.0.0, 2026-03-27 : The 50th Milestone Edition
 :description: Codifying 400+ repositories into a unified formal system.
