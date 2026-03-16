@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: PMPL-1.0-or-later
+# Clade declaration — part of the gv-clade-index registry
+# See: https://github.com/hyperpolymath/gv-clade-index
+
+[identity]
+uuid = "21c43c63-1190-5e94-a7fa-3b130190ab39"
+primary-forge = "github"
+primary-owner = "hyperpolymath"
+canonical-name = "manifesto"
+prefixed-name = "gv-manifesto"
+
+[clade]
+primary = "gv"
+secondary = []
+assigned = "2026-03-16"
+rationale = ""
+
+[forges]
+github = "hyperpolymath/manifesto"
+gitlab = "hyperpolymath/manifesto"
+bitbucket = "hyperpolymath/manifesto"
+
+[lineage]
+type = "standalone"
+parent = "Project manifesto and principles"
+born = "2026-03-16"
