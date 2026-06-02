@@ -5,12 +5,12 @@
 [metadata]
 project = "manifesto"
 version = "0.0.1"
-last-updated = "2026-01-03"
+last-updated = "2026-06-02"
 status = "active"
 session = "converted from scheme — 2026-04-11"
 
 [project-context]
-name = "Rsr Template Repo"
+name = "manifesto"
 purpose = """"""
 completion-percentage = 0
 
@@ -34,5 +34,5 @@ actions = [
 ]
 
 [maintenance-status]
-last-run-utc = "2026-01-03T00:00:00Z"
+last-run-utc = "2026-06-02T00:00:00Z"
 last-result = "unknown"  # unknown | pass | warn | fail
