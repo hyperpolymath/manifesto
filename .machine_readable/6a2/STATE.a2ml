@@ -3,7 +3,7 @@
 #
 # STATE.a2ml — Manifesto project state
 [metadata]
-project = "rsr-template-repo"
+project = "manifesto"
 version = "0.0.1"
 last-updated = "2026-01-03"
 status = "active"
