@@ -1,19 +1,77 @@
-// SPDX-License-Identifier: MPL-2.0
-// Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
-= Jonathan's Manifesto [a work-in-progress]: The Metaprogramming Turn
-image:https://img.shields.io/badge/OpenSSF-Best_Practices-green?logo=openssourcesecurity[OpenSSF Best Practices,link="https://www.bestpractices.dev/en/projects/new?repo_url=https://github.com/hyperpolymath/manifesto"]
+= Jonathan's Manifesto — The Metaprogramming Turn (v0.x — work in progress)
+hyperpolymath · they/them
 
-Jonathan D.A. Jewell <hyperpolymath@github>
-v1.1.0, 2026-02-08 : Post-Consolidation Edition
-:description: 275+ repositories governed by the RSR 2026 Standard, consolidated from 580+ into focused monorepos.
+[.lead]
+A turn from writing code to writing the rules, checks, and values that code must answer to — and making all three legible enough to be contested.
 
-== The Vision
-For three decades, I have operated at the intersection of cognitive science, philosophy, and systems engineering. This manifesto marks the transition from private research to the public deployment of the **RSR 2026 (Rhodium Standard Repository)**.
+== The vision
 
-== Core Pillars
-1. **Machine-Readable Governance:** Moving beyond human-centric READMEs to the `6SCM` architectural pattern.
-2. **Neurosymbolic Verification:** Bridging the gap between the probabilistic nature of LLMs and symbolic mathematical certainty.
-3. **Post-Disciplinary Praxis:** Applying the rigour of Cognitive and Decision Sciences to social and technical systems, from labor union policy to RISC-V SSGs.
+For most of three decades I have worked across cognitive science, philosophy, and systems engineering, mostly in private. This manifesto marks the move into public: the deployment of the RSR 2026 (Rhodium Standard Repository) and the body of work that surrounds it.
 
-== The Legacy of Axiology
-My work in **Axiology** (the study of value) and the **Metaprogramming Turn** culminates here. We do not just write code; we architect value-driven logic.
+The thesis is simple to state and hard to live up to. Most of what governs software is left implicit — intent lives in prose, soundness lives in trust, value lives in authority. *The metaprogramming turn is the decision to make those governing things explicit, first-class, and inspectable*: to write not only the program, but the rules it must obey, the checks that establish it, and the values it encodes, in a form that both a machine and a critic can read and argue with.
+
+I can begin this. I cannot finish it alone — and a manifesto about making value contestable would contradict itself if it stayed a monologue. So from here it is _we_.
+
+We value, in the precise sense that this whole project is _about_ value:
+
+* explicit, contestable structure over implicit good faith;
+* checked certainty over fluent plausibility;
+* rigour applied wherever a problem demands it over rigour rationed to the problems we have agreed to call "technical".
+
+== Core pillars
+
+Each pillar is a position, not a slogan. Each is meant to be disagreed with.
+
+=== 1. Machine-readable governance
+
+The rules an estate lives by — licensing, provenance, conventions, who may change what — should be encoded as machine-readable artifacts, not narrated in prose that quietly drifts from the code it describes. A human-centric README cannot be checked; governance-as-data can. The `6SCM` pattern is how this estate encodes those rules so that tooling, and AI agents, can verify conformance and flag drift rather than take a paragraph's word for it.
+
+_What this rejects:_ the prose README as the source of truth about how a system is meant to behave.
+
+=== 2. Neurosymbolic verification
+
+Probabilistic generation may propose; only symbolic method may dispose. Where correctness matters, an unproven output from a language model is a hypothesis, not a result, and treating fluency as evidence is a category error. The discipline is to pair generation with mechanised checking so that the part which can be certain has the last word.
+
+_What this rejects:_ plausibility mistaken for proof. (`hypatia` is the clearest concrete instance.)
+
+=== 3. Post-disciplinary praxis
+
+The rigour we reserve for compilers belongs equally to consent, to policy, to accountability. The line between a "technical" problem that deserves formal treatment and a "social" one left to good faith is itself a choice — and often an alibi. Post-disciplinary means reaching for whatever discipline the problem needs; _praxis_ means refusing to separate the theory from the practice that tests it. The same instinct runs from labour-union policy to RISC-V SSGs.
+
+_What this rejects:_ the division of labour that keeps rigour out of the rooms where power actually operates. (`avow-protocol`, consent-as-code, is the most developed example.)
+
+== The wager: value made legible
+
+Underneath all three pillars is one bet. Deciding what a system _should_ do, whether an output _counts_ as correct, who _consented_, and what _matters_ are all judgments of value — and they are usually smuggled in implicitly and backed by authority: _trust me_, _the spec says so_, _the model said so_. Axiology is the study of value; the metaprogramming turn applies it operationally. Value is not asserted, it is _structured_ — and structure can be inspected, checked, and argued with.
+
+This is also why the work is, at root, political as well as technical. A value that is explicit and inspectable can be contested by the people it bears on; a value backed only by authority cannot. Making value legible is therefore a precondition for accountability — in a compiler, in an AI system, and in a union. It is the point at which formal methods and solidarity economics turn out to want the same thing: that the rules be legible, and the powerful be answerable to them.
+
+It is the same instinct that runs through the technical research — identity defined by equivalence rather than asserted, a value justified by the construction that produced it rather than taken on faith. The manifesto only generalises that instinct, from values inside a program to values inside our systems and institutions.
+
+== Reading order
+
+* `EXPLAINME.adoc` — the canonical "what is this" entry-point, consumed by AI agents and by the `hyperpolymath/standards` governance tooling.
+* `docs/` — supporting essays, position papers, and ADRs that situate the manifesto in context.
+* `MAINTAINERS.adoc` — current stewards.
+
+== Status
+
+* *Licence:* MPL-2.0 (migrated from PMPL-1.0-or-later on 2026-05-26 per the estate licence-debt audit, https://github.com/hyperpolymath/standards/pull/196[hyperpolymath/standards#196]).
+* *Maturity:* a work in progress; the manifesto is a living document. The version number on the title line is incremented on each substantive revision.
+* *Audit findings:* see `docs/tech-debt-2026-05-26.md` if present (added by the 2026-05-26 estate tech-debt scan).
+
+== Engaging with this manifesto
+
+Collaboration here is not decoration; by the argument above it is constitutive. A manifesto that makes value contestable earns its keep only by being contested, adopted, and extended. Three ways in:
+
+* *Disagree* — open an Issue. Manifestos thrive on being argued with, and a pillar that no one challenges has not yet been tested.
+* *Adopt a thread* — fork, riff, cite. The MPL-2.0 licence makes derivative manifestos easy.
+* *Contribute editorially* — see link:CONTRIBUTING.md[CONTRIBUTING.md] for the (intentionally light) editorial conventions.
+
+Whether you are a researcher, a maintainer, a journalist, or a student, the door is open — and the NUJ and solidarity-economics threads here mean I take "we" literally.
+
+== Companion repositories
+
+* `hyperpolymath/standards` — the RSR 2026 standards that the first pillar references.
+* `hyperpolymath/hypatia` — the neurosymbolic analyser that is the second pillar's clearest concrete instantiation.
+* `hyperpolymath/avow-protocol` — the consent-as-code stack that is the third pillar's most-developed example.
