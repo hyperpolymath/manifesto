@@ -1,0 +1,64 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// Copyright (c) 2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+= Operating Doctrine — Solutions at Source (and its siblings)
+:icons: font
+
+[NOTE]
+====
+*Status: proposed for owner ratification.* This is a draft companion to the
+manifesto, contributed for the owner to adopt, reword into their own voice, or
+reject. It is not yet canon. The canonical machine-facing summary lives in the
+estate arrival-pack (projected into every `CLAUDE.md`); the canonical prose home
+is `hyperpolymath/standards` (`RSR-PHILOSOPHY.adoc`). This file is where the
+manifesto would state the same doctrine in the owner's register.
+====
+
+The manifesto's three pillars — machine-readable governance, neurosymbolic
+verification, post-disciplinary praxis — describe *what the estate is for*. The
+operating doctrine describes *how work is actually undertaken* within it. Three
+principles carry most of that weight, because each names a trap that fluent,
+plausible work falls into.
+
+== Solutions at source
+
+Fix the canonical, upstream origin of a problem — never patch the downstream
+symptom. A defect that appears in many places is almost never many problems; it
+is one problem at a source, expressed many times. Patching the copies while
+leaving the source untouched guarantees the problem returns, and makes it look
+solved.
+
+This is the same instinct the manifesto applies to value itself: do not assert
+the surface, structure the thing that produces it. A symptom patched in isolation
+is a value backed by authority — _it looks fixed, trust me_ — where a source fixed
+with its up- and down-streams accounted for is a value justified by the
+construction that produced it. So the principle carries two obligations:
+
+* *Find the source* — trace the problem to where it is actually defined (the
+  template, the generator, the canon) and fix it there. The estate's shape,
+  `standards → rsr-template-repo → (every repo)`, makes that locus explicit.
+* *Mind every up- and down-stream* — a change at a source propagates; know what
+  feeds it and what depends on it, and make the change safe across all of them. A
+  fix that breaks a downstream consumer is not yet a fix.
+
+Where a source cannot be reached in one pass, remediate the downstream _and_
+record the source fix as work still owed — never let the patch masquerade as the
+cure.
+
+== Holes before goals
+
+Fix soundness holes before features, optimisation, or documentation. A hole is
+anywhere the system can be wrong without saying so. Let the holes set the agenda;
+a goal reached on top of a hole is not reached.
+
+== Always fail loudly
+
+No silent green. A check that cannot fail is not a check; a fallback that hides a
+broken precondition is a forged result — the exact category error the second
+pillar rejects, fluency mistaken for proof. Prefer a build that breaks to a build
+that lies.
+
+== Relation to the canon
+
+* `hyperpolymath/standards` — `RSR-PHILOSOPHY.adoc`, the canonical prose source.
+* `hyperpolymath/rsr-template-repo` — `RSR-PHILOSOPHY.adoc` plus the arrival-pack
+  that projects the Doctrine summary into every repository's `CLAUDE.md`.
