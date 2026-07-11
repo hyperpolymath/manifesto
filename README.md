@@ -39,6 +39,34 @@ We value, in the precise sense that this whole project is *about* value:
 - rigour applied wherever a problem demands it over rigour rationed to
   the problems we have agreed to call "technical".
 
+# The assurance turn
+
+Making rules explicit is not enough. A legible rule can still conceal who
+authorised it, erase the particular person or circumstance it classifies, or
+turn a passing check into an inflated claim. The assurance turn follows from
+the manifesto's commitments: governing statements must be connected to
+evidence, their boundaries and assumptions must be visible, and the people
+affected by them must be able to contest both representation and result.
+
+Assurance here is therefore not a badge or a promise of absolute safety. It is
+a disciplined relationship among a claim, the evidence offered for it, the
+model in which that evidence has force, the residual uncertainty, and an
+authority accountable for the decision. Draft, designed, assumed, tested,
+audited, and proven work are different states. Fluency does not collapse them.
+
+Particularity matters because abstraction always leaves something behind. A
+type, policy category, or machine-readable record is useful only when its
+lowering remains faithful to what is materially at stake. Contestability is
+the corresponding political commitment: an affected person must be able to
+discover the rule and evidence, challenge a classification or automated
+decision, and reach a responsible human authority.
+
+This chapter explains the philosophical direction, not its operational rules.
+The proposed
+[estate constitution](https://github.com/hyperpolymath/standards/tree/constitution/estate-foundation/constitution)
+defines authority, precedence, exceptions, assurance duties, and change
+procedure. Until adopted through review, it remains a proposal.
+
 # Core pillars
 
 Each pillar is a position, not a slogan. Each is meant to be disagreed
