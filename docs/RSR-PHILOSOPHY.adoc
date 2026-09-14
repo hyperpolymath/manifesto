@@ -75,14 +75,18 @@ a drift.
 
 So the principle carries three obligations:
 
-* *Label it* — exactly one option is marked as the most elegant and correct in the long
-  run, judged on long-run grounds alone: correctness, absence of deferred breakage, no
-  special cases, a fix at the generator rather than at the instance. Never on effort,
-  speed, or convenience. Where two options genuinely tie, say so — silence is not a tie.
+* *Label it* — normally, exactly one option is marked as the most elegant and correct in
+  the long run, judged on long-run grounds alone: correctness, absence of deferred
+  breakage, no special cases, a fix at the generator rather than at the instance. Never
+  on effort, speed, or convenience. Where two or more options genuinely tie on those
+  grounds, label every tied option as equally most elegant and correct — silence is not a
+  tie.
 * *Justify any departure* — a recommendation that is not the elegant arm names both arms
   and states, in the offer itself, why the departure is made on this occasion. An
   unexplained departure is a defect in the question, not a matter of style. The labels
-  are never merged to avoid having to write the explanation.
+  are never merged to avoid having to write the explanation. Where options tie, the
+  singular "`elegant arm`" means the set of equally labelled elegant options: only a
+  recommendation outside that set is a departure.
 * *It binds unasked decisions too* — this is a methodology, not a formatting rule for
   questions. Where the non-elegant arm is taken without asking, that is reported, not
   absorbed.
