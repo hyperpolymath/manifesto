@@ -15,7 +15,7 @@ manifesto would state the same doctrine in the owner's register.
 
 The manifesto's three pillars — machine-readable governance, neurosymbolic
 verification, post-disciplinary praxis — describe *what the estate is for*. The
-operating doctrine describes *how work is actually undertaken* within it. Three
+operating doctrine describes *how work is actually undertaken* within it. Four
 principles carry most of that weight, because each names a trap that fluent,
 plausible work falls into.
 
@@ -56,6 +56,44 @@ No silent green. A check that cannot fail is not a check; a fallback that hides 
 broken precondition is a forged result — the exact category error the second
 pillar rejects, fluency mistaken for proof. Prefer a build that breaks to a build
 that lies.
+
+== Elegance by default
+
+Treat the most elegant and correct long-term solution as the default choice — and say
+which option that is, every time a choice is put to the owner. This is not a preference
+for tidiness. It is a refusal to let the judgment be made silently.
+
+It is the wager applied to the offer itself. A set of options presented as merely
+_different_ has already smuggled a judgment of value in implicitly: whichever option is
+listed first, or described most fluently, becomes the recommendation whether anyone
+intended it or not — and the one doing the smuggling is usually whoever found it
+quickest to write. That is a value backed by authority in its plainest form, _these are
+your options, trust me_. Naming the elegant and correct arm structures the judgment
+instead of asserting it, and structure is what makes it contestable: the owner can then
+take the other arm deliberately, which is a decision, rather than by default, which is
+a drift.
+
+So the principle carries three obligations:
+
+* *Label it* — normally, exactly one option is marked as the most elegant and correct in
+  the long run, judged on long-run grounds alone: correctness, absence of deferred
+  breakage, no special cases, a fix at the generator rather than at the instance. Never
+  on effort, speed, or convenience. Where two or more options genuinely tie on those
+  grounds, label every tied option as equally most elegant and correct — silence is not a
+  tie.
+* *Justify any departure* — a recommendation that is not the elegant arm names both arms
+  and states, in the offer itself, why the departure is made on this occasion. An
+  unexplained departure is a defect in the question, not a matter of style. The labels
+  are never merged to avoid having to write the explanation. Where options tie, the
+  singular "`elegant arm`" means the set of equally labelled elegant options: only a
+  recommendation outside that set is a departure.
+* *It binds unasked decisions too* — this is a methodology, not a formatting rule for
+  questions. Where the non-elegant arm is taken without asking, that is reported, not
+  absorbed.
+
+The default is a starting point, not a prediction. The other arm may be taken with full
+information, and often should be; what may not happen is an expedient choice made in
+ignorance that it was the expedient one.
 
 == Relation to the canon
 
