@@ -19,8 +19,8 @@ workflows:
         - 'dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98'
     '.github/workflows/dogfood-gate.yml':
         - 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1'
-        - 'hyperpolymath/deed-ecosystem@aa4b836bd969df2bc58128cb8e3d20bbc88d5e79'
-        - 'hyperpolymath/k9-ecosystem@89f3c2702f4f650a92aa7411502f38da06abd562'
+        - 'hyperpolymath/deed-ecosystem@4cb8886be67cf0d67e150679d1213ea519c3806f'
+        - 'hyperpolymath/k9-ecosystem@20f6be5b5a14a48680b236955b5c4ad9033d00d4'
     '.github/workflows/instant-sync.yml':
         - 'peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697'
     '.github/workflows/pages.yml':
@@ -77,14 +77,14 @@ dependencies:
         commit: 'sha1-0f8e8c99d88aeb3fbfd523f1ef2c6f762d10d64d'
         owner_id: 75048950
         repo_id: 623796603
-    'hyperpolymath/deed-ecosystem@aa4b836bd969df2bc58128cb8e3d20bbc88d5e79':
+    'hyperpolymath/deed-ecosystem@4cb8886be67cf0d67e150679d1213ea519c3806f':
         ref: 'main'
-        commit: 'sha1-aa4b836bd969df2bc58128cb8e3d20bbc88d5e79'
+        commit: 'sha1-4cb8886be67cf0d67e150679d1213ea519c3806f'
         owner_id: 6759885
         repo_id: 1275649586
-    'hyperpolymath/k9-ecosystem@89f3c2702f4f650a92aa7411502f38da06abd562':
+    'hyperpolymath/k9-ecosystem@20f6be5b5a14a48680b236955b5c4ad9033d00d4':
         ref: 'main'
-        commit: 'sha1-89f3c2702f4f650a92aa7411502f38da06abd562'
+        commit: 'sha1-20f6be5b5a14a48680b236955b5c4ad9033d00d4'
         owner_id: 6759885
         repo_id: 1275650185
     'hyperpolymath/smtp-notify-action@e384daf6167a7a7567642d6a62060106244d2413':
