@@ -31,12 +31,6 @@ gnu-grep = "latest"
 [alias]
 task = "go-task"
 
-[tasks.build]
-run = "cargo build --release"
-
-[tasks.test]
-run = "cargo test"
-
 [tasks.lint]
 run = "bun install --frozen-lockfile && bunx --no-install --bun prettier --check ."
 
